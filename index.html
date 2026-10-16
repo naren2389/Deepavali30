@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Claim Your Deepavali Reward | GMAT</title>
+<meta name="description" content="Happy Deepavali from GMAT. Register your reward: RM30 fuel voucher or Flight Delay Pass. Terms apply.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#3b0a33" />
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;600;700&display=swap">
+<style>
+:root{
+  --plum-950:#2a0728;--plum-900:#3b0a33;--plum-700:#6a1456;--marigold:#ffb81c;--saffron:#ff8a1f;--gold:#f6cf75;
+  --green-900:#0a563b;--green-700:#0f8a57;--green-500:#16b874;--green-100:#eaf8f1;
+  --ink:#1d1424;--muted:#6e6477;--line:#e6dfe9;--soft:#faf6fb;--white:#fff;--red:#d1495b;
+  --shadow:0 18px 45px rgba(42,7,40,.16)
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:#f1ebf3;color:var(--ink);-webkit-font-smoothing:antialiased}
+html[lang=ta] body{font-family:"Noto Sans Tamil",Inter,"Nirmala UI",Latha,sans-serif}
+html[lang=ta] h1,html[lang=ta] h2,html[lang=ta] h3{letter-spacing:0!important}html[lang=ta] .hero h1{font-size:25px;line-height:1.25;max-width:238px}html[lang=ta] .hero p.sub{max-width:250px}
+button,input{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}
+.app{width:min(100%,480px);margin:0 auto;min-height:100vh;background:#fff;box-shadow:0 0 60px rgba(42,7,40,.10);position:relative;padding-bottom:92px}
+.topbar{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.95);backdrop-filter:blur(16px);display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line)}
+.logo{height:34px;width:auto;display:block}.top-actions{display:flex;gap:8px;align-items:center}
+.icon-btn{width:42px;height:42px;border-radius:14px;border:1px solid var(--line);background:#fff;display:grid;place-items:center}
+.lang{height:42px;border:1px solid var(--line);background:#fff;border-radius:14px;padding:0 12px;font-size:12px;font-weight:800;color:var(--plum-900)}
+.wasvg{display:block;width:28px;height:28px;color:#25D366}
+/* hero */
+.hero{position:relative;overflow:hidden;color:#fff;padding:26px 20px 40px;background:radial-gradient(circle at 85% 12%,rgba(255,184,28,.30),transparent 42%),linear-gradient(160deg,var(--plum-950) 0%,var(--plum-900) 52%,var(--plum-700) 100%)}
+.hero:before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(246,207,117,.22) 1.4px,transparent 1.6px);background-size:22px 22px;mask-image:linear-gradient(180deg,rgba(0,0,0,.9),transparent 75%);-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.9),transparent 75%);pointer-events:none}
+.hero>*{position:relative;z-index:1}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.eyebrow:before,.eyebrow:after{content:"";width:18px;height:1px;background:var(--gold);opacity:.7}
+.hero h1{margin:12px 0 8px;font-size:31px;line-height:1.1;letter-spacing:-.03em;font-weight:800;max-width:300px}
+.hero h1 em{font-style:normal;color:var(--marigold)}
+.hero p.sub{margin:0;color:#f1dff0;font-size:14.5px;line-height:1.55;max-width:300px}
+.diya{position:absolute!important;z-index:0!important;right:-10px;top:18px;width:120px;height:auto;opacity:.95;filter:drop-shadow(0 0 18px rgba(255,184,28,.55))}
+.pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.pill{font-size:12px;font-weight:700;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(246,207,117,.35);color:#fff5dc}
+/* form */
+.form-wrap{padding:0 12px;margin-top:-22px;position:relative;z-index:5}
+.lead-card{background:#fff;border-radius:24px;padding:20px 20px 22px;box-shadow:var(--shadow);border:1px solid #efe7f2}
+.lead-card-head{text-align:center;margin-bottom:8px}.lead-card-head h2{font-size:19px;margin:0;color:var(--plum-900);letter-spacing:-.02em}.lead-card-head p{font-size:12.5px;color:var(--muted);margin:6px 0 0;line-height:1.45}
+.field{margin-top:16px}
+.lead-card label.lbl,.lead-card .field>label{font-size:12px;font-weight:800;letter-spacing:.04em;color:var(--plum-900);display:block;margin-bottom:7px;text-transform:uppercase}
+.req{color:#ef4444}
+.icon-input{position:relative}.ficon{position:absolute;left:15px;top:50%;transform:translateY(-50%);display:grid;place-items:center;color:#9a8fa3;pointer-events:none}
+.ficon svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.icon-input input{width:100%;height:54px;border:1.5px solid #d9cfe0;border-radius:13px;background:#fbf9fc;padding:0 14px 0 48px;font-size:16px;color:var(--ink);outline:none;transition:.2s}
+.icon-input input:focus{border-color:var(--green-500);background:#fff;box-shadow:0 0 0 4px rgba(22,184,116,.12)}
+.icon-input input.bad{border-color:var(--red);background:#fff7f7}
+#promo{text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+.promo-note{display:none;margin-top:7px;font-size:12.5px;font-weight:700;color:var(--green-900)}.promo-note.show{display:block}
+.err{display:none;color:#c0392b;font-size:12px;margin-top:6px}.err.show{display:block}
+.consent-list{display:grid;gap:12px;margin-top:20px}
+.consent-row{display:flex;gap:12px;align-items:flex-start;font-size:12.5px;line-height:1.45;color:#3c2f47;font-weight:400;text-transform:none;letter-spacing:0;margin:0}
+.consent-row input{width:19px;height:19px;accent-color:#0f8a57;flex:0 0 auto;margin-top:1px}
+.consent-row a{color:#0b6aa6;text-decoration:underline}
+.submit{width:100%;min-height:58px;border:0;border-radius:16px;background:linear-gradient(135deg,#0f8a57,#13b574);color:#fff;font-weight:900;font-size:15px;margin-top:18px;box-shadow:0 10px 22px rgba(15,138,87,.25);display:flex;align-items:center;justify-content:center;gap:10px}
+.submit:disabled{opacity:.7}
+.trust{text-align:center;margin-top:14px;font-size:12px;color:#6e6477;font-weight:600}
+.hp{position:absolute!important;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+/* sections */
+.section{padding:30px 16px 0}.kicker{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--plum-700)}.section h3{font-size:19px;margin:4px 0 0;letter-spacing:-.02em;color:var(--plum-900)}
+.steps{display:grid;gap:10px;margin-top:14px}.stp{display:grid;grid-template-columns:36px 1fr;gap:12px;align-items:start;padding:13px;border:1px solid var(--line);border-radius:16px;background:#fff}
+.stp i{font-style:normal;width:36px;height:36px;border-radius:50%;background:linear-gradient(145deg,var(--marigold),var(--saffron));color:var(--plum-950);display:grid;place-items:center;font-weight:900}
+.stp h4{margin:1px 0 3px;font-size:14px}.stp p{margin:0;font-size:12.5px;color:var(--muted);line-height:1.5}
+.rcards{display:grid;gap:10px;margin-top:14px}
+.rcard{border-radius:18px;padding:16px;background:linear-gradient(150deg,#fff8e6,#fff1cc);border:1px solid #f3dc9b}
+.rcard .tag{font-size:11px;font-weight:800;letter-spacing:.08em;color:#8a5a00;text-transform:uppercase}
+.rcard h4{margin:4px 0 4px;font-size:18px;color:#4a2a00}.rcard p{margin:0;font-size:12.5px;line-height:1.5;color:#6b4a14}
+.rcard.fdp{background:linear-gradient(150deg,#f3ecff,#e7dcfb);border-color:#d4c3f3}.rcard.fdp .tag{color:#5b3aa0}.rcard.fdp h4{color:#2d1a5a}.rcard.fdp p{color:#4c3a78}
+.rcard[hidden]{display:none}
+details{border:1px solid var(--line);border-radius:14px;padding:0 14px;margin-top:14px;background:#fff}
+summary{list-style:none;padding:15px 0;font-size:14px;font-weight:800;display:flex;justify-content:space-between;cursor:pointer;color:var(--plum-900)}
+summary::-webkit-details-marker{display:none}
+details ol{margin:0 0 14px;padding-left:18px;font-size:12.5px;line-height:1.55;color:var(--muted);display:grid;gap:6px}
+.draft{display:inline-block;font-size:10.5px;font-weight:800;background:#fff3cf;color:#8a5a00;border-radius:6px;padding:2px 7px;margin-left:6px;vertical-align:middle}
+.footer{padding:30px 16px 20px;color:#80768a;font-size:11.5px;text-align:center}.footer img{height:26px;opacity:.8;margin-bottom:9px}.footer a{text-decoration:underline}
+.sticky-cta{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,480px);z-index:35;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);backdrop-filter:blur(16px);border-top:1px solid var(--line);display:grid;grid-template-columns:48px 1fr;gap:8px;transition:transform .25s ease}
+.sticky-cta.hide{transform:translate(-50%,130%)}
+.sticky-cta .wa{border:1px solid var(--line);background:#fff;border-radius:14px;display:grid;place-items:center}
+.sticky-cta .submit{margin:0;min-height:48px;font-size:13px}
+.toast{position:fixed;left:50%;bottom:92px;transform:translate(-50%,20px);width:min(calc(100% - 28px),452px);background:var(--plum-900);color:#fff;padding:12px 14px;border-radius:15px;font-size:12px;opacity:0;pointer-events:none;transition:.28s;z-index:60}.toast.show{opacity:1;transform:translate(-50%,0)}
+.modal{position:fixed;inset:0;z-index:70;background:rgba(20,4,20,.7);display:none;align-items:flex-end;justify-content:center}.modal.show{display:flex}
+.sheet{position:relative;width:min(100%,480px);background:#fff;border-radius:26px 26px 0 0;padding:19px 18px calc(22px + env(safe-area-inset-bottom));text-align:center}
+.handle{width:42px;height:4px;background:#e2d9e6;border-radius:99px;margin:0 auto 14px}
+.ok{width:56px;height:56px;border-radius:18px;background:linear-gradient(145deg,var(--marigold),var(--saffron));color:var(--plum-950);display:grid;place-items:center;font-size:26px;font-weight:900;margin:6px auto 0}
+.sheet h3{font-size:21px;margin:12px 0 6px;color:var(--plum-900)}.sheet p{font-size:13px;color:var(--muted);line-height:1.55;margin:0}
+.close-btn{position:absolute;right:16px;top:16px;border:0;background:#f4eef6;border-radius:50%;width:36px;height:36px;font-size:18px}
+@media(min-width:700px){body{padding:22px 0}.app{border-radius:28px;overflow:hidden;min-height:calc(100vh - 44px)}.sticky-cta{bottom:22px;border-radius:0 0 28px 28px}.modal{align-items:center}.sheet{border-radius:26px;max-width:460px}}
+@media(max-width:360px){.diya{width:96px}.hero h1{font-size:27px;max-width:230px}}
+</style>
+<!-- GMAT links for future use (all carry the ref code + UTM, campaign deepavali30; add &utm_content=<placement>)
+  Home: https://gmat.com.my/?ref=34ae4118bd504e00a37d425d0b4f4e60&utm_source=rewards_page&utm_medium=website&utm_campaign=deepavali30
+  Car insurance: https://gmat.com.my/vehicle-insurance/home?ref=34ae4118bd504e00a37d425d0b4f4e60&utm_source=rewards_page&utm_medium=website&utm_campaign=deepavali30
+  Motorcycle insurance: https://gmat.com.my/motor-cycle/home?ref=34ae4118bd504e00a37d425d0b4f4e60&utm_source=rewards_page&utm_medium=website&utm_campaign=deepavali30
+  Tenang: https://gmat.com.my/tenang/home?ref=34ae4118bd504e00a37d425d0b4f4e60&utm_source=rewards_page&utm_medium=website&utm_campaign=deepavali30
+  Hikers: https://gmat.com.my/hikers/home?ref=34ae4118bd504e00a37d425d0b4f4e60&utm_source=rewards_page&utm_medium=website&utm_campaign=deepavali30
+  Maid: https://gmat.com.my/maid/home?ref=34ae4118bd504e00a37d425d0b4f4e60&utm_source=rewards_page&utm_medium=website&utm_campaign=deepavali30
+  Bicycle: https://gmat.com.my/bicycle/home?ref=34ae4118bd504e00a37d425d0b4f4e60&utm_source=rewards_page&utm_medium=website&utm_campaign=deepavali30
+-->
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <a href="https://gmat.com.my/?ref=34ae4118bd504e00a37d425d0b4f4e60&amp;utm_source=rewards_page&amp;utm_medium=website&amp;utm_campaign=deepavali30&amp;utm_content=header_logo" target="_blank" rel="noopener" aria-label="GMAT home"><img class="logo" src="https://d9p96y8yn87dz.cloudfront.net/GMATImages/Logo/GMATTransparent.png" alt="GMAT" /></a>
+    <div class="top-actions">
+      <button class="lang" id="langBtn" type="button" aria-label="Language">EN · தமிழ்</button>
+      <a class="icon-btn" href="https://wa.me/60193392408?text=I%27m%20interested%20to%20get%20a%20quote" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="wasvg" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <svg class="diya" viewBox="0 0 140 120" aria-hidden="true">
+      <defs><radialGradient id="glow" cx="50%" cy="38%" r="60%"><stop offset="0" stop-color="#ffd36b" stop-opacity=".9"/><stop offset="1" stop-color="#ffb81c" stop-opacity="0"/></radialGradient>
+      <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6cf75"/><stop offset="1" stop-color="#c47a12"/></linearGradient></defs>
+      <circle cx="70" cy="46" r="46" fill="url(#glow)"/>
+      <path d="M70 6c9 12 15 21 15 32a15 15 0 0 1-30 0c0-11 6-20 15-32z" fill="#ffb81c"/><path d="M70 20c4 6 7 11 7 17a7 7 0 0 1-14 0c0-6 3-11 7-17z" fill="#fff3c4"/>
+      <path d="M18 68c0 24 24 38 52 38s52-14 52-38z" fill="url(#bowl)"/><path d="M12 68h116" stroke="#f6cf75" stroke-width="5" stroke-linecap="round"/>
+      <path d="M36 80c10 3 22 4 34 4s24-1 34-4" stroke="#8a4b05" stroke-width="2" fill="none" opacity=".45" stroke-linecap="round"/>
+      <circle cx="46" cy="92" r="2.500" fill="#fff3c4" opacity=".8"/><circle cx="70" cy="96" r="2.500" fill="#fff3c4" opacity=".8"/><circle cx="94" cy="92" r="2.500" fill="#fff3c4" opacity=".8"/>
+    </svg>
+    <div class="eyebrow" data-en="Happy Deepavali" data-ta="இனிய தீபாவளி">Happy Deepavali</div>
+    <h1 id="heroH1" data-en="Claim Your <em>Deepavali</em> Reward!" data-ta="உங்கள் <em>தீபாவளி</em> பரிசைப் பெறுங்கள்!">Claim Your <em>Deepavali</em> Reward!</h1>
+    <p class="sub" data-en="Enter your details below to register your reward." data-ta="உங்கள் பரிசைப் பதிவு செய்ய கீழே உங்கள் விவரங்களை உள்ளிடவும்.">Enter your details below to register your reward.</p>
+    <div class="pill-row">
+      <span class="pill" id="pillFuel" data-en="RM30 Fuel Voucher*" data-ta="RM30 எரிபொருள் வவுச்சர்*">RM30 Fuel Voucher*</span>
+      <span class="pill" id="pillFdp" data-en="Flight Delay Pass*" data-ta="விமான தாமத பாஸ்*">Flight Delay Pass*</span>
+    </div>
+  </section>
+
+  <section class="form-wrap" id="claim">
+    <div class="lead-card">
+      <div class="lead-card-head"><h2 id="formH2" data-en="Redeem Your Reward" data-ta="உங்கள் பரிசைப் பெற்றுக்கொள்ளுங்கள்">Redeem Your Reward</h2><p data-en="Won the Fuel Voucher? Enter your promo code. Won the Flight Delay Pass? Leave the promo code blank." data-ta="எரிபொருள் வவுச்சர் வென்றீர்களா? உங்கள் விளம்பரக் குறியீட்டை உள்ளிடவும். விமான தாமத பாஸ் வென்றீர்களா? விளம்பரக் குறியீட்டைக் காலியாக விடவும்.">Won the Fuel Voucher? Enter your promo code. Won the Flight Delay Pass? Leave the promo code blank.</p></div>
+      <div class="hp" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+
+      <div class="field"><label for="name"><span data-en="FULL NAME" data-ta="முழு பெயர்">FULL NAME</span> <span class="req">*</span></label><div class="icon-input"><span class="ficon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></span><input id="name" autocomplete="name" /></div><div class="err" id="eName" data-en="Please enter your full name." data-ta="உங்கள் முழு பெயரை உள்ளிடவும்.">Please enter your full name.</div></div>
+      <div class="field"><label for="mobile"><span data-en="MOBILE NUMBER" data-ta="கைபேசி எண்">MOBILE NUMBER</span> <span class="req">*</span></label><div class="icon-input"><span class="ficon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span><input id="mobile" type="tel" inputmode="tel" autocomplete="tel" /></div><div class="err" id="eMobile" data-en="Enter a valid Malaysian mobile number, e.g. 012-345 6789." data-ta="சரியான மலேசிய கைபேசி எண்ணை உள்ளிடவும், எ.கா. 012-345 6789.">Enter a valid Malaysian mobile number, e.g. 012-345 6789.</div></div>
+      <div class="field"><label for="email"><span data-en="EMAIL ADDRESS" data-ta="மின்னஞ்சல் முகவரி">EMAIL ADDRESS</span> <span class="req">*</span></label><div class="icon-input"><span class="ficon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><input id="email" type="email" inputmode="email" autocomplete="email" /></div><div class="err" id="eEmail" data-en="Enter a valid email address." data-ta="சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்.">Enter a valid email address.</div></div>
+      <div class="field"><label for="promo"><span data-en="PROMO CODE (FUEL VOUCHER ONLY)" data-ta="விளம்பரக் குறியீடு (எரிபொருள் வவுச்சர் மட்டும்)">PROMO CODE (FUEL VOUCHER ONLY)</span></label><div class="icon-input"><span class="ficon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V5a2 2 0 0 1 2-2h7l9 9-9 9z"/><circle cx="8" cy="8" r="1.200"/></svg></span><input id="promo" autocomplete="off" autocapitalize="characters" spellcheck="false" /></div>
+        <div class="promo-note" id="promoNote"></div>
+        <div class="err" id="ePromo" data-en="This promo code is not valid. Leave it blank if you won the Flight Delay Pass." data-ta="இந்த விளம்பரக் குறியீடு செல்லாது. விமான தாமத பாஸ் வென்றிருந்தால் காலியாக விடவும்.">This promo code is not valid. Leave it blank if you won the Flight Delay Pass.</div></div>
+
+      <div class="consent-list">
+        <label class="consent-row"><input type="checkbox" id="pdpaConsent" checked><span><span data-en="I agree to GMAT Insurtech's" data-ta="நான் GMAT Insurtech-இன்">I agree to GMAT Insurtech's</span> <a href="https://gmat.com.my/terms" target="_blank" rel="noopener" data-en="Terms &amp; Conditions" data-ta="விதிமுறைகள் &amp; நிபந்தனைகள்">Terms &amp; Conditions</a> <span data-en="and" data-ta="மற்றும்">and</span> <a href="https://gmat.com.my/privacy" target="_blank" rel="noopener" data-en="Privacy Policy" data-ta="தனியுரிமைக் கொள்கை">Privacy Policy</a><span data-en="." data-ta="-ஐ ஏற்கிறேன்.">.</span> <span class="req">*</span></span></label>
+        <div class="err" id="ePdpa" data-en="Please tick this box to continue." data-ta="தொடர இந்தப் பெட்டியைத் தேர்ந்தெடுக்கவும்.">Please tick this box to continue.</div>
+        <label class="consent-row"><input type="checkbox" id="marketingConsent" checked><span data-en="Yes, email me the newsletter, renewal reminders &amp; offers (optional)." data-ta="ஆம், செய்திமடல், புதுப்பித்தல் நினைவூட்டல்கள் &amp; சலுகைகளை எனக்கு மின்னஞ்சல் செய்யவும் (விருப்பம்).">Yes, email me the newsletter, renewal reminders &amp; offers (optional).</span></label>
+      </div>
+      <button class="submit" id="submitBtn" type="button"><span id="submitLbl" data-en="REGISTER MY REWARD" data-ta="எனது பரிசைப் பதிவு செய்க">REGISTER MY REWARD</span><span aria-hidden="true">›</span></button>
+      <div class="trust" data-en="Free · No obligation to buy · Unsubscribe anytime" data-ta="இலவசம் · வாங்க வேண்டிய கட்டாயம் இல்லை · எப்போது வேண்டுமானாலும் விலகலாம்">Free · No obligation to buy · Unsubscribe anytime</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="kicker" data-en="Simple &amp; quick" data-ta="எளிது &amp; விரைவு">Simple &amp; quick</div><h3 data-en="How it works" data-ta="இது எப்படி செயல்படுகிறது">How it works</h3>
+    <div class="steps">
+      <div class="stp"><i>1</i><div><h4 data-en="Register your reward" data-ta="உங்கள் பரிசைப் பதிவு செய்யுங்கள்">Register your reward</h4><p data-en="Enter your details above. Fuel Voucher winners also enter their promo code." data-ta="மேலே உங்கள் விவரங்களை உள்ளிடவும். எரிபொருள் வவுச்சர் வென்றவர்கள் விளம்பரக் குறியீட்டையும் உள்ளிடவும்.">Enter your details above. Fuel Voucher winners also enter their promo code.</p></div></div>
+      <div class="stp"><i>2</i><div><h4 data-en="Check your email" data-ta="மின்னஞ்சலைப் பாருங்கள்">Check your email</h4><p data-en="We email you your reward details and your registration reference." data-ta="உங்கள் பரிசு விவரங்களையும் பதிவு எண்ணையும் மின்னஞ்சலில் அனுப்புவோம்.">We email you your reward details and your registration reference.</p></div></div>
+      <div class="stp"><i>3</i><div><h4 data-en="Use your reward" data-ta="உங்கள் பரிசைப் பயன்படுத்துங்கள்">Use your reward</h4><p data-en="Follow the simple steps in your email." data-ta="மின்னஞ்சலில் உள்ள எளிய படிகளைப் பின்பற்றுங்கள்.">Follow the simple steps in your email.</p></div></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="kicker" data-en="Your reward" data-ta="உங்கள் பரிசு">Your reward</div><h3 data-en="What you get" data-ta="நீங்கள் பெறுவது">What you get</h3>
+    <div class="rcards">
+      <div class="rcard" id="rcFuel"><h4 data-en="RM30 Fuel Voucher" data-ta="RM30 எரிபொருள் வவுச்சர்">RM30 Fuel Voucher</h4><p data-en="Redeemable when you renew your car insurance with GMAT.*" data-ta="GMAT-இல் உங்கள் கார் காப்பீட்டைப் புதுப்பிக்கும்போது பயன்படுத்தலாம்.*">Redeemable when you renew your car insurance with GMAT.*</p></div>
+      <div class="rcard fdp" id="rcFdp"><h4 data-en="Flight Delay Pass (FDP)" data-ta="விமான தாமத பாஸ் (FDP)">Flight Delay Pass (FDP)</h4><p data-en="We email you a passcode. Register your pass yourself using the passcode.*" data-ta="உங்களுக்கு ஒரு பாஸ்கோடை மின்னஞ்சலில் அனுப்புவோம். அதைப் பயன்படுத்தி நீங்களே உங்கள் பாஸைப் பதிவு செய்யுங்கள்.*">We email you a passcode. Register your pass yourself using the passcode.*</p></div>
+    </div>
+    <details>
+      <summary><span data-en="Terms &amp; conditions*" data-ta="விதிமுறைகள் &amp; நிபந்தனைகள்*">Terms &amp; conditions*</span><span><span class="draft">DRAFT</span> ＋</span></summary>
+      <ol>
+        <li data-en="The RM30 Fuel Voucher is for participants who won the Fuel Voucher rewards at our GMAT booth." data-ta="RM30 எரிபொருள் வவுச்சர், எங்கள் GMAT அரங்கில் எரிபொருள் வவுச்சர் பரிசை வென்ற பங்கேற்பாளர்களுக்கானது.">The RM30 Fuel Voucher is for participants who won the Fuel Voucher rewards at our GMAT booth.</li>
+        <li data-en="One RM30 voucher is given per car insurance renewal, and one per person. You may visit <a href='https://gmat.com.my/?ref=34ae4118bd504e00a37d425d0b4f4e60&amp;utm_source=rewards_page&amp;utm_medium=website&amp;utm_campaign=deepavali30&amp;utm_content=terms_link' target='_blank' rel='noopener'>gmat.com.my</a> and apply DEEPAVALI30 as the promo code." data-ta="ஒரு கார் காப்பீட்டுப் புதுப்பித்தலுக்கு RM30 மதிப்புள்ள ஒரு வவுச்சர் வழங்கப்படும்; ஒருவருக்கு ஒன்று மட்டுமே. நீங்கள் <a href='https://gmat.com.my/?ref=34ae4118bd504e00a37d425d0b4f4e60&amp;utm_source=rewards_page&amp;utm_medium=website&amp;utm_campaign=deepavali30&amp;utm_content=terms_link' target='_blank' rel='noopener'>gmat.com.my</a>-க்குச் சென்று DEEPAVALI30 என்ற விளம்பரக் குறியீட்டைப் பயன்படுத்தலாம்.">One RM30 voucher is given per car insurance renewal, and one per person. You may visit <a href='https://gmat.com.my/?ref=34ae4118bd504e00a37d425d0b4f4e60&amp;utm_source=rewards_page&amp;utm_medium=website&amp;utm_campaign=deepavali30&amp;utm_content=terms_link' target='_blank' rel='noopener'>gmat.com.my</a> and apply DEEPAVALI30 as the promo code.</li>
+        <li data-en="Flight Delay Pass passcodes are limited to 100, one per person, while stocks last." data-ta="விமான தாமத பாஸ் பாஸ்கோடுகள் 100 மட்டுமே; இருப்பு உள்ளவரை ஒருவருக்கு ஒன்று வழங்கப்படும்.">Flight Delay Pass passcodes are limited to 100, one per person, while stocks last.</li>
+      </ol>
+    </details>
+  </section>
+
+  <footer class="footer"><a href="https://gmat.com.my/?ref=34ae4118bd504e00a37d425d0b4f4e60&amp;utm_source=rewards_page&amp;utm_medium=website&amp;utm_campaign=deepavali30&amp;utm_content=footer_logo" target="_blank" rel="noopener" style="text-decoration:none"><img src="https://d9p96y8yn87dz.cloudfront.net/GMATImages/Logo/GMATTransparent.png" alt="GMAT" /></a><div>© 2026 GMAT Insurtech. All rights reserved.</div><div style="margin-top:5px"><a href="https://gmat.com.my/privacy" target="_blank" rel="noopener" data-en="Privacy" data-ta="தனியுரிமை">Privacy</a> · <a href="https://gmat.com.my/terms" target="_blank" rel="noopener" data-en="Terms" data-ta="விதிமுறைகள்">Terms</a> · <a href="mailto:gcare@gmat.com.my" data-en="Contact" data-ta="தொடர்புக்கு">Contact</a></div></footer>
+
+  <div class="sticky-cta"><a class="wa" href="https://wa.me/60193392408?text=I%27m%20interested%20to%20get%20a%20quote" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="wasvg" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a><button class="submit" id="stickyBtn" type="button"><span data-en="REGISTER MY REWARD" data-ta="எனது பரிசைப் பதிவு செய்க">REGISTER MY REWARD</span> →</button></div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="sheet">
+    <button class="close-btn" id="closeModal" aria-label="Close">×</button><div class="handle"></div><div class="ok">✓</div>
+    <h3 id="mTitle" data-en="Thank you!" data-ta="நன்றி!">Thank you!</h3>
+    <p id="mText" data-en="We have received your registration. Please check your email for your reward. If you don't see it, check your spam folder." data-ta="உங்கள் பதிவைப் பெற்றுள்ளோம். உங்கள் பரிசுக்காக மின்னஞ்சலைச் சரிபார்க்கவும். காணவில்லை எனில் ஸ்பாம் கோப்புறையைப் பாருங்கள்.">We have received your registration. Please check your email for your reward. If you don't see it, check your spam folder.</p>
+    <button class="submit" id="doneBtn" type="button"><span data-en="CLOSE" data-ta="மூடு">CLOSE</span></button>
+  </div>
+</div>
+
+<script>
+/* ===== GMAT Deepavali reward page (demo) ===== */
+const CONFIG={
+  ENDPOINT:'',              // paste Apps Script web app URL (Rewards.gs) here
+  GTM_ID:'',                // leave empty for demo; use a separate test container
+  CAMPAIGN:'deepavali2026', // event tag. Also taken from the page address (.../rewards/<campaign>) when present
+  PROMO_CODES:{DEEPAVALI30:'fuel'},   // fuel voucher code. Blank code = Flight Delay Pass
+  CONSENT_TEXT_VERSION:'v1',
+  MIN_FILL_MS:3000
+};
+window.dataLayer=window.dataLayer||[];
+if(CONFIG.GTM_ID){(function(w,d,s,l,i){w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer',CONFIG.GTM_ID)}
+const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s);
+let lang='en',sending=false;const loadedAt=Date.now();
+(function(){const m=location.pathname.match(/\/rewards\/([^\/]+)/);if(m)CONFIG.CAMPAIGN=m[1]})();
+
+/* traffic capture (first + last touch) */
+const TRK=['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid','ttclid'];
+const store=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}},load=k=>{try{return JSON.parse(localStorage.getItem(k)||'null')}catch(e){return null}};
+const q=new URLSearchParams(location.search);
+const cur={};TRK.forEach(k=>{if(q.get(k))cur[k]=q.get(k)});cur.referrer=document.referrer||'';cur.landing=location.origin+location.pathname;cur.ts=new Date().toISOString();
+const hasTrk=TRK.some(k=>cur[k])||!!cur.referrer;
+let first=load('gmat_first_touch_'+CONFIG.CAMPAIGN);if(!first){first=cur;store('gmat_first_touch_'+CONFIG.CAMPAIGN,first)}
+let last=load('gmat_last_touch_'+CONFIG.CAMPAIGN)||cur;if(hasTrk){last=cur;store('gmat_last_touch_'+CONFIG.CAMPAIGN,last)}
+const srcLabel=t=>t.utm_source||(t.gclid?'google_ads':t.fbclid?'meta':t.ttclid?'tiktok':(t.referrer?(()=>{try{return new URL(t.referrer).hostname}catch(e){return 'referral'}})():'direct'));
+
+/* reward copy by promo type */
+const R={
+  none:{h:['Claim Your <em>Deepavali</em> Reward!','உங்கள் <em>தீபாவளி</em> பரிசைப் பெறுங்கள்!'],f:['Redeem Your Reward','உங்கள் பரிசைப் பெற்றுக்கொள்ளுங்கள்'],
+        m:['We have received your registration. Please check your email for your reward. If you don\'t see it, check your spam folder.','உங்கள் பதிவைப் பெற்றுள்ளோம். உங்கள் பரிசுக்காக மின்னஞ்சலைச் சரிபார்க்கவும். காணவில்லை எனில் ஸ்பாம் கோப்புறையைப் பாருங்கள்.']},
+  fuel:{h:['Claim Your <em>RM30</em> Fuel Voucher!','உங்கள் <em>RM30</em> எரிபொருள் வவுச்சரைப் பெறுங்கள்!'],f:['Claim Your RM30 Fuel Voucher','உங்கள் RM30 எரிபொருள் வவுச்சரைப் பெறுங்கள்'],
+        m:['We have received your registration. Check your email for your voucher details and registration reference. If you don\'t see it, check your spam folder.','உங்கள் பதிவைப் பெற்றுள்ளோம். வவுச்சர் விவரங்களுக்கும் பதிவு எண்ணுக்கும் மின்னஞ்சலைப் பாருங்கள். காணவில்லை எனில் ஸ்பாம் கோப்புறையைப் பாருங்கள்.']},
+  fdp:{h:['Claim Your <em>Flight Delay Pass</em>!','உங்கள் <em>விமான தாமத பாஸை</em> பெறுங்கள்!'],f:['Claim Your Flight Delay Pass','உங்கள் விமான தாமத பாஸைப் பெறுங்கள்'],
+        m:['We have received your registration. Check your email for your Flight Delay Pass passcode. If you don\'t see it, check your spam folder.','உங்கள் பதிவைப் பெற்றுள்ளோம். உங்கள் விமான தாமத பாஸ் பாஸ்கோடுக்கு மின்னஞ்சலைப் பாருங்கள். காணவில்லை எனில் ஸ்பாம் கோப்புறையைப் பாருங்கள்.']}
+};
+let rewardType='none';
+function typeOf(code){const c=(code||'').trim().toUpperCase();if(!c)return 'fdp';return CONFIG.PROMO_CODES[c]||null}
+function applyReward(t){
+  rewardType=t||'none';
+  const note=$('#promoNote');
+  if(rewardType!=='fuel')note.className='promo-note';else{note.className='promo-note show';note.dataset.en='✓ RM30 Fuel Voucher';note.dataset.ta='✓ RM30 எரிபொருள் வவுச்சர்'}
+  render();
+}
+function render(){$$('[data-en]').forEach(el=>{el.innerHTML=el.dataset[lang]});$('#langBtn').textContent=lang==='en'?'EN · தமிழ்':'தமிழ் · EN';$('#submitLbl').textContent=sending?MSG.sending[lang==='en'?0:1]:$('#submitLbl').dataset[lang]}
+function setLang(l){lang=l;document.documentElement.lang=l==='ta'?'ta':'en';render()}
+const MSG={fix:['Please check the highlighted fields.','சிறப்பிக்கப்பட்ட புலங்களைச் சரிபார்க்கவும்.'],fail:['Could not send. Please try again.','அனுப்ப இயலவில்லை. மீண்டும் முயற்சிக்கவும்.'],sending:['SENDING…','அனுப்புகிறது…']};
+const say=k=>MSG[k][lang==='en'?0:1];
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2400)}
+function normMobile(v){let d=v.replace(/[\s\-()]/g,'').replace(/^\+/,'');if(d.startsWith('60'))d=d.slice(2);if(d.startsWith('0'))d=d.slice(1);return /^1\d{8,9}$/.test(d)?'+60'+d:null}
+function flag(id,eid,bad){$('#'+id).classList.toggle('bad',bad);$('#'+id).setAttribute('aria-invalid',bad);$('#'+eid).classList.toggle('show',bad)}
+const uid=()=>crypto.randomUUID?crypto.randomUUID():Date.now()+'-'+Math.random().toString(16).slice(2);
+function setBusy(b){sending=b;$('#submitBtn').disabled=b;render()}
+
+async function submitLead(){
+  if(sending)return;
+  const name=$('#name').value.trim(),mob=normMobile($('#mobile').value),email=$('#email').value.trim(),code=$('#promo').value.trim().toUpperCase(),type=typeOf(code);
+  const ok={n:name.length>=3,m:!!mob,e:/^\S+@\S+\.\S+$/.test(email),c:!!type,p:$('#pdpaConsent').checked};
+  flag('name','eName',!ok.n);flag('mobile','eMobile',!ok.m);flag('email','eEmail',!ok.e);flag('promo','ePromo',!ok.c);$('#ePdpa').classList.toggle('show',!ok.p);
+  if(!(ok.n&&ok.m&&ok.e&&ok.c&&ok.p)){(document.querySelector('.icon-input .bad')||$('#pdpaConsent')).focus();toast(say('fix'));return}
+  if($('#website').value||Date.now()-loadedAt<CONFIG.MIN_FILL_MS){setBusy(true);setTimeout(()=>{openModal(type)},600);return}
+  const id=uid();
+  const payload={lead_id:id,campaign:CONFIG.CAMPAIGN,promo_code:code,reward_type:type,full_name:name,mobile_number:mob,email:email,
+    marketing_opt_in:$('#marketingConsent').checked,pdpa_consent:true,consent_text_version:CONFIG.CONSENT_TEXT_VERSION,language:lang,
+    device:/Mobi|Android|iPhone/i.test(navigator.userAgent)?'Mobile':'Desktop',submitted_at:new Date().toISOString(),
+    first_touch:first,last_touch:last,source_label:srcLabel(last)};
+  setBusy(true);
+  try{
+    if(CONFIG.ENDPOINT){await fetch(CONFIG.ENDPOINT,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)})}
+    else console.log('GMAT reward payload (no ENDPOINT set):',payload);
+  }catch(e){setBusy(false);toast(say('fail'));return}
+  window.dataLayer.push({event:'generate_lead',campaign:CONFIG.CAMPAIGN,reward_type:type,promo_code:code,lead_id:id,marketing_opt_in:payload.marketing_opt_in,language:lang,traffic_source:payload.source_label});
+  openModal(type);
+}
+function openModal(t){const m=R[t||'none'].m,el=$('#mText');el.dataset.en=m[0];el.dataset.ta=m[1];render();$('#modal').classList.add('show');$('#doneBtn').focus()}
+function closeModal(){$('#modal').classList.remove('show');setBusy(false);$('#submitBtn').focus()}
+
+$('#promo').addEventListener('input',e=>{const t=typeOf(e.target.value);applyReward(t);if(t)flag('promo','ePromo',false)});
+$('#submitBtn').addEventListener('click',submitLead);
+$$('#claim input').forEach(i=>i.addEventListener('keydown',e=>{if(e.key==='Enter'&&i.type!=='checkbox'){e.preventDefault();submitLead()}}));
+$('#closeModal').addEventListener('click',closeModal);$('#doneBtn').addEventListener('click',closeModal);
+$('#modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#modal').classList.contains('show'))closeModal()});
+$('#stickyBtn').addEventListener('click',()=>$('#claim').scrollIntoView({behavior:'smooth',block:'start'}));
+$('#langBtn').addEventListener('click',()=>setLang(lang==='en'?'ta':'en'));
+if('IntersectionObserver' in window)new IntersectionObserver(([e])=>$('.sticky-cta').classList.toggle('hide',e.isIntersecting),{threshold:.2}).observe($('.lead-card'));
+/* start: fuel QR may carry ?promo=DEEPAVALI30 ; language from ?lang=ta */
+(function(){const p=(q.get('promo')||'').trim().toUpperCase();if(p){$('#promo').value=p}
+  if(q.get('lang')==='ta')setLang('ta');applyReward(typeOf(p))})();
+window.dataLayer.push({event:'landing_view',campaign:CONFIG.CAMPAIGN,reward_type:rewardType==='fuel'?'fuel':'none',traffic_source:srcLabel(last)});
+</script>
+</body>
+</html>
